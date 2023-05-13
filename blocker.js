@@ -39,7 +39,7 @@
     // Agregar un enlace para restaurar el contenido original de la web
     const restoreLink = document.createElement("a");
     restoreLink.href = "#";
-    restoreLink.innerHTML = "Haga clic si quiere mostrar la web bloqueada.";
+    restoreLink.innerHTML = "Haga clic si quiere mostrar la web bloqueada. (BETA)";
     restoreLink.onclick = function() {
         // Pedir credenciales de sudo
         const password = prompt("Por favor, ingrese la contraseña de sudo:");
