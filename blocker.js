@@ -6,7 +6,6 @@
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/Danucosukosuko/WebBlocker/main/blocker.js
 // @downloadURL  https://raw.githubusercontent.com/Danucosukosuko/WebBlocker/main/blocker.js
-// @require      https://raw.githubusercontent.com/Danucosukosuko/WebBlocker/main/blocker.js
 // @match        http://127.0.0.1:8881/*
 // @match        https://malavida.com/*
 // @match        https://softonic.com/*
