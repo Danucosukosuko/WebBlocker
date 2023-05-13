@@ -4,10 +4,12 @@
 // @version      2023.05.13
 // @description  Bloquear el acceso a una página web y mostrar un mensaje de acceso denegado. es libre de ser modificada. (https://github.com/Danucosukosuko)
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+// @require      https://raw.githubusercontent.com/Danucosukosuko/WebBlocker/main/blocker.js
 // @match        http://127.0.0.1:8881/*
 // @match        https://malavida.com/*
 // @match        https://softonic.com/*
 // @match        https://google.com/*
+// @match        https://chat.openai.com/*
 // @match        https://*
 // @match        about:blank/*
 // @grant        GM_setValue
