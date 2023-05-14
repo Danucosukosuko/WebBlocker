@@ -1,0 +1,16 @@
+{
+   "name": "Blocker",
+   "version": "1.0",
+   "description": "Bloquea webs peligrosas.",
+   "manifest_version": 2,
+   "content_scripts": [{
+      "matches": [
+         "http://127.0.0.1:8881/*",
+         "https://malavida.com/*",
+         "https://softonic.com/*",
+         "https://pgl.yoyo.org/*",
+         "http://itcorp.com/*"
+      ],
+      "js": ["blocker.js"]
+   }]
+}
