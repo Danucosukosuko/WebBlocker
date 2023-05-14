@@ -10,6 +10,7 @@
 // @match        https://malavida.com/*
 // @match        https://softonic.com/*
 // @match        https://google.com/*
+// @match        https://scratch.mit.edu
 // @match        about:blank/*
 // @grant        GM_setValue
 // @grant        GM_getValue
