@@ -25,11 +25,6 @@
 
     // Esta siguiente línea es el contenido de la web una vez borrada.
     const webcontent = "<h1>No se puede acceder al sitio webb. Posibles causas: El sitio web se ha considerado inseguro o tiene virus.</h1><h1>Te recomendamos que vuelvas a tu página anterior</h1><h1>Si quiere contribuir a alguna web, vete a esta URL: https://github.com/Danucosukosuko/WebBlocker</h1><img src='https://w7.pngwing.com/pngs/571/181/png-transparent-warning-sign-safety-alerte-angle-triangle-warning-sign.png' style='width: 512px; height: 256px;'>";
-    document.title = "ACCESO DENEGADO";
-    document.title = "ACCESO DENEGADO";
-    document.title = "ACCESO DENEGADO";
-    document.title = "ACCESO DENEGADO";
-    document.title = "ACCESO DENEGADO";
 
     // Guardar el contenido original de la web en una cookie
     document.cookie = "webcontent=" + encodeURIComponent(body.innerHTML) + "; path=/";
