@@ -1,19 +1,12 @@
-// ==UserScript==
-// @name         Acceso denegado
-// @namespace    https://github.com/danucosukosuko
-// @version      2023.05.13
-// @description  Bloquear el acceso a una página web y mostrar un mensaje de acceso denegado. es libre de ser modificada. (https://github.com/Danucosukosuko)
-// @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
-// @updateURL    https://raw.githubusercontent.com/Danucosukosuko/WebBlocker/main/blocker.js
-// @downloadURL  https://raw.githubusercontent.com/Danucosukosuko/WebBlocker/main/blocker.js
-// @match        http://127.0.0.1:8881/*
-// @match        https://malavida.com/*
-// @match        https://softonic.com/*
-// @match        https://google.com/*
-// @match        about:blank/*
-// @grant        GM_setValue
-// @grant        GM_getValue
-// ==/UserScript==
+//Blocker 14.5.2023
+//  ____  _            _               __ _  _   _____  ___   ___ ___  ____  
+// |  _ \| |          | |             /_ | || | | ____||__ \ / _ \__ \|___ \ 
+// | |_) | | ___   ___| | _____ _ __   | | || |_| |__     ) | | | | ) | __) |
+// |  _ <| |/ _ \ / __| |/ / _ \ '__|  | |__   _|___ \   / /| | | |/ / |__ < 
+// | |_) | | (_) | (__|   <  __/ |     | |  | |_ ___) | / /_| |_| / /_ ___) |
+// |____/|_|\___/ \___|_|\_\___|_|     |_|  |_(_)____(_)____|\___/____|____/ 
+                                                                           
+                                                                           
 
 (function() {
     'use strict';
