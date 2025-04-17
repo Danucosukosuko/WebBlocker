@@ -35,7 +35,7 @@
     restoreLink.onclick = function() {
         // Pedir credenciales de sudo
         const password = prompt("Por favor, ingrese la contraseña de sudo:");
-        if (password === "3676") {
+        if (password === "2025") {
             // Obtener el contenido de la cookie y establecerlo como el nuevo contenido de la web
             const decodedContent = decodeURIComponent(document.cookie.replace(/(?:(?:^|.*;\s*)webcontent\s*\=\s*([^;]*).*$)|^.*$/, "$1"));
             body.innerHTML = decodedContent;
